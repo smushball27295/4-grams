@@ -1,22 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar  2 19:02:03 2020
 
-@author: manik
-"""
-
-"""
-
-The script includes the following pre-processing steps for text:
-- Sentence Splitting
-- Term Tokenization
-- Ngrams
-- POS tagging
-
-The run function includes all 2grams of the form: <ADVERB> <ADJECTIVE>
-
-POS tags list: https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
-"""
 
 import nltk,re
 from nltk.tokenize import sent_tokenize
